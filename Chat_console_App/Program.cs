@@ -25,7 +25,6 @@ namespace Chat_console_App
                 string message = Console.ReadLine();  
                 busService.PublishMessage(message,From);
             }
-           
         }
     }
 }
